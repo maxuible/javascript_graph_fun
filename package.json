@@ -1,0 +1,16 @@
+{
+  "name": "javascript_graph_fun",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "bun build ./index.ts --outdir ./ --target browser",
+    "watch": "bun build ./index.ts --outdir ./ --target browser --watch"
+  }
+}
